@@ -1,0 +1,15 @@
+*/bin/*
+bin/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
