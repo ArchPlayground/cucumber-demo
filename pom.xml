@@ -94,7 +94,7 @@
                         <goal>generate</goal>
                     </goals>
                     <configuration>
-                        <projectName>CucumberReport</projectName>
+                        <projectName>CucumberDemo</projectName>
                         <outputDirectory>${project.basedir}/target/cucumber-html-reports</outputDirectory>
                         <cucumberOutput>${project.basedir}/target/cucumber.json</cucumberOutput>
                         <parallelTesting>false</parallelTesting>
