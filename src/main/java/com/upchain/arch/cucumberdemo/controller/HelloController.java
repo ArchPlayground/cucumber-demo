@@ -6,8 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @RequestMapping(method={RequestMethod.GET},value={"/hello"})
+    @RequestMapping(method={RequestMethod.GET},value={"/version"})
     public String getVersion() {
-        return "Hello cucumber tests!";
+        return "v0.1";
+    }
+
+    @RequestMapping(method={RequestMethod.GET},value={"/hello"})
+    public String sayHello() {
+        return "Hello from Cucumber!";
     }
 }

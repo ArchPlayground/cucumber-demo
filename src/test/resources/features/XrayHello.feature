@@ -6,4 +6,4 @@ Feature: Cucumber Demo Feature: Says Hello
   Scenario: Hello Cucumber Demo Scenario
     When the client calls /hello
     Then the client receives status code of 200
-
+    And the client receives response of Hello from Cucumber!
