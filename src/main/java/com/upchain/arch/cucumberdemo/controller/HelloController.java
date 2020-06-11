@@ -9,7 +9,7 @@ package com.upchain.arch.cucumberdemo.controller;
 public class HelloController {
     @GetMapping(value={"/version"})
     public String getVersion() {
-        return "v0.1";
+        return "v1.0";
     }
 
     @GetMapping(value={"/hello"})
